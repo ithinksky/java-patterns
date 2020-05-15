@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 /**
  * @author tengpeng.gao
  */
-public class MovieTicketProductTest {
+class MovieTicketProductTest {
 
 	private final ArrayList<MovieTicketProduct> bookList = new ArrayList();
 

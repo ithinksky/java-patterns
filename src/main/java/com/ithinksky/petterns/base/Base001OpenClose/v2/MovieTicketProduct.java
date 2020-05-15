@@ -1,4 +1,4 @@
-package com.ithinksky.petterns.base.Base001OpenClose.v1;
+package com.ithinksky.petterns.base.Base001OpenClose.v2;
 
 /**
  * @author tengpeng.gao
