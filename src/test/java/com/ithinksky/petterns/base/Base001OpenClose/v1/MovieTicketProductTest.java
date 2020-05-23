@@ -1,5 +1,6 @@
 package com.ithinksky.petterns.base.Base001OpenClose.v1;
 
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,6 +11,7 @@ import java.util.stream.Collectors;
 /**
  * @author tengpeng.gao
  */
+@Slf4j
 class MovieTicketProductTest {
 
 	private final ArrayList<MovieTicketProduct> bookList = new ArrayList();
@@ -31,7 +33,7 @@ class MovieTicketProductTest {
 						.filter(e -> ProductStatus.ON_SALE.getValue().equals(e.getStatus()))
 						.collect(Collectors.toList());
 		onSaleList.forEach(t -> {
-			System.out.println("在售商品：== " + t);
+			log.info("在售商品：== " + t);
 		});
 	}
 }
