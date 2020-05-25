@@ -15,4 +15,9 @@ public abstract class AbstractAdapterEditor implements IAdapterEditor {
     public void editWordFile() {
 
     }
+
+	@Override
+	public void editExcelFile() {
+
+	}
 }

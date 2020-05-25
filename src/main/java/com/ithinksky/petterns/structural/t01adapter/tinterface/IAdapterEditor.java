@@ -9,4 +9,6 @@ public interface IAdapterEditor {
 
     void editWordFile();
 
+	void editExcelFile();
+
 }
