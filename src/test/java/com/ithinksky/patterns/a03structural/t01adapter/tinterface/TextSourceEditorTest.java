@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 /**
  * @author tengpeng.gao
  */
-class TextEditorTest {
+class TextSourceEditorTest {
 
     @Test
     void editTextFile() {

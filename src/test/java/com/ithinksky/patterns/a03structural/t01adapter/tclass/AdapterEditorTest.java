@@ -8,11 +8,11 @@ import org.junit.jupiter.api.Test;
  */
 class AdapterEditorTest {
 
-    private AdapterEditor adapterEditor;
+    private WordTargetEditor adapterEditor;
 
     @BeforeEach
     void setUp() {
-        adapterEditor = new AdapterEditor();
+        adapterEditor = new WordTargetEditor();
     }
 
 

@@ -3,9 +3,7 @@ package com.ithinksky.patterns.a03structural.t01adapter.tclass;
 /**
  * @author tengpeng.gao
  */
-public interface IAdapterEditor {
-
-    void editTextFile();
+public interface ITargetEditor extends ISourceEditor {
 
     void editWordFile();
 
