@@ -1,4 +1,4 @@
-package com.ithinksky.patterns.a04behavioral.t04iterator;
+package com.ithinksky.patterns.a04behavioral.t04iterator.d01;
 
 /**
  * @author tengpeng.gao
@@ -6,7 +6,6 @@ package com.ithinksky.patterns.a04behavioral.t04iterator;
 public interface Iterator {
 
     Object previous();
-
 
     Object next();
 

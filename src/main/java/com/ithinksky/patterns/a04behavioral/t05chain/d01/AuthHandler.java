@@ -1,4 +1,4 @@
-package com.ithinksky.patterns.a04behavioral.t05chain;
+package com.ithinksky.patterns.a04behavioral.t05chain.d01;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -6,11 +6,11 @@ import lombok.extern.slf4j.Slf4j;
  * @author tengpeng.gao
  */
 @Slf4j
-public class ResponseHandler extends AbstractHandler implements Handler {
+public class AuthHandler extends AbstractHandler implements Handler {
 
     @Override
     public void operator() {
-        log.info("ResponseHandler …… ");
+        log.info("AuthHandler …… ");
         if (getHandler() != null) {
             getHandler().operator();
         }

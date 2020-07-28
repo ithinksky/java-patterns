@@ -1,4 +1,4 @@
-package com.ithinksky.patterns.a04behavioral.t04iterator;
+package com.ithinksky.patterns.a04behavioral.t04iterator.d01;
 
 
 import java.util.ArrayList;

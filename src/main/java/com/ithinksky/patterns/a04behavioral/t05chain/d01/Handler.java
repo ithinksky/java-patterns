@@ -1,4 +1,4 @@
-package com.ithinksky.patterns.a04behavioral.t05chain;
+package com.ithinksky.patterns.a04behavioral.t05chain.d01;
 
 /**
  * @author tengpeng.gao
