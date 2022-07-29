@@ -7,7 +7,7 @@ package com.ithinksky.patterns.a02creational.t03singleton;
  */
 public class DoubleLockCheck {
 
-	private static DoubleLockCheck INSTANCE;
+	private volatile static DoubleLockCheck INSTANCE;
 
 	private DoubleLockCheck() {
 
